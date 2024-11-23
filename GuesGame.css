@@ -26,7 +26,7 @@ main{
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 100%;
+  width: 90%;
   margin: auto;
   margin-bottom: 10px;
   margin-top: 70px;
@@ -39,7 +39,7 @@ h1 {
 }
 h2 {
   padding: 5px;
-  border: 2px solid #05f759;
+  border: 2px solid black;
   border-radius: 5px;
   margin: 10px;
   font-size: 16px;
@@ -48,8 +48,8 @@ h2 {
 }
 h2:first-of-type {
   border: 2px solid black;
-  border-radius: 50%;
-  box-shadow: #333;
+  border-radius: 15px; 
+   box-shadow: #333; 
 
 }
 h3 {
@@ -64,11 +64,11 @@ p {
 }
 
 input[type="number"] {
-  width: 90%;
+  width: 92%;
   margin: auto;
   padding: 10px;
   font-size: 16px;
-  border: 2px solid #05f759;
+  border: 2px solid black;
   border-radius: 5px;
   margin-bottom: 10px;
 }
@@ -76,7 +76,7 @@ input[type="number"] {
 button {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #28a745;
+  background-color: #1f6631;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -153,7 +153,7 @@ main {
   
     h2 {
       padding: 5px;
-      border: 2px solid #05f759;
+      border: 2px solid black;
       border-radius: 5px;
       margin: 10px;
       font-size: 16px;
@@ -161,12 +161,12 @@ main {
   
     }
   
-    h2:first-of-type {
-      border: 2px solid black;
-      border-radius: 50%;
-      box-shadow: #333;
-  
-    }
+ h2:first-of-type {
+   border: 2px solid black;
+   border-radius: 15px;
+   box-shadow: #333;
+
+ }
   
     h3 {
       padding: 5px;
@@ -178,13 +178,12 @@ main {
       font-size: 16px;
       margin-bottom: 20px;
     }
-  
     input[type="number"] {
-      width: 90%;
+      width: 92%;
       margin: auto;
       padding: 10px;
       font-size: 16px;
-      border: 2px solid #05f759;
+      border: 2px solid black;
       border-radius: 5px;
       margin-bottom: 10px;
     }
@@ -192,7 +191,7 @@ main {
     button {
       padding: 10px 20px;
       font-size: 16px;
-      background-color: #28a745;
+      background-color: #3a7d4b;
       color: #fff;
       border: none;
       border-radius: 5px;
